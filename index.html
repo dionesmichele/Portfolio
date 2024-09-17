@@ -4,65 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Meu portfólio </title>
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
-<nav>
+</head>
+
+<body>
+<nav class="menu">
     <ul>
     <li><a href="#Formacao">Formação</a></li>
     <li><a href="#Portfolio">Portfólio</a></li>
     <li><a href="#Contato">Contato</a></li>
     </ul>
-   </nav>
-<main> 
-<article id="Formacao">
-<section>
-    <img src="imagens/foto_perfil.png" alt="Minha foto de perfil, estou usando tal e x">
+</nav>
+
+<main class="menu_sobre"> 
+<article id="sobre">
+<section style="padding-top: 30px;">
+    <img class="foto_perfil" src="imagens/foto_perfil_red.jpg" alt="Minha foto de perfil, estou usando tal e x">
 </section> 
 <section>
-    <h1> Michele Diones</h1>
-    <h2> Desenvolvedora de Sistemas</h2>
+    <h1 class="titulo"> Michele Diones</h1>
+    <h2 class="subtitulo"> Desenvolvedora de Sistemas</h2>
 </section> 
-<section>
+<section class="primeiro-paragrafo">
     Descrição
 </section> 
 </article>
+</main>
 
-<article id="Portfolio">
-    <section>
-        <h3> Curso de Programação</h3>
+<div class="fundo_formacao">
+    <h2 class="titulo_formacao">Formação</h2>
+    <article id="conteudo_formacao">
+        <section class="info_formacao">
+            <h3> Curso de Programação</h3>
+       <span><a href="#">Instituto Minas Programam</a></span>
+           <p>Descrição</p> 
+        </section> 
+        <section class="info_formacao">
+            <h3> Desenvolvimento WEB</h3>
+       <span><a href="#">Instituto Minas Programam</a></span>
+       <p>Descrição</p>
+        </section> 
+        <section class="info_formacao">
+            <h3> Ensino Médio</h3>
+       <span><a href="#">EE Deputado Silva Prado</a></span>
+       <p>Descrição</p>
+        </section> 
+     </article>
+</div>
+
+
+<div class="fundo_portfolio">
+    <h2 class="titulo_portfolio">Portfólio</h2>
+<article id="conteudo_portfolio">
+    <section class="info_portfolio">
+        <h3> Algo interessante que já fiz</h3>
+        <span><a href="#">Instituto Minas Programam</a></span>
     </section> 
-    <section>
-        Descrição
+    <section class="info_portfolio">
+        <h3> Algo interessante que já fiz </h3>
+        <span><a href="#">Instituto Minas Programam</a></span>
     </section> 
-    <section>
-        <h3> Curso Generation</h3>
-    </section> 
-    <section>
-        Descrição
-    </section> 
-    <section>
-        <h3> Ensino Médio</h3>
-    </section> 
-    <section>
-        Descrição
+    <section class="info_portfolio">
+        <h3> Projeto que quero fazer</h3>
+        <span><a href="#">Instituto Minas Programam</a></span>
     </section> 
     </article>
+</div>
 
-    <article id="Contato">
-        <section>
-            Entre em contato
+<footer id="fundo_rodape">
+<div class="conteudo_contato">
+        <section class="entre-em-contato">
+            <a>Entre em contato</a> 
         </section>
-        <section>
-            <a href="https://pereiradionesm@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" style="border-radius: 90px" target="_blank"></a>
+        <section class="rodape_icone">
+            <img class="icone" src="imagens/o-email.png" alt="Icon gmail">
+           <span> <a href="https://pereiradionesm@gmail.com"> pereiradionesm@gmail.com </a> </span> 
         </section> 
-       <section>
-            <a href="">logo github</a>
+       <section class="rodape_icone">
+        <img class="icone" src="imagens/github.png" alt="Icon github" >
+        <span> <a href="https://github.com/dionesmichele/Portfolio"> dionesmichele </a> </span>  
         </section> 
-        <section>
-            <a href="https://www.linkedin.com/in/michele-diones/"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 80px" target="_blank"></a>
+        <section class="rodape_icone">
+            <img class="icone" src= "imagens/linkedin.png" alt="Icon linkedin">
+           <span> <a href="https://www.linkedin.com/in/michele-diones/"> michele-diones</a> </span> 
         </section> 
-        </article>
-</main>
+</div>
+</footer>
 </body>
 </html>

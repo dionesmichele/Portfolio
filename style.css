@@ -1,0 +1,152 @@
+body, nav , main {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu {
+    background-color: #0f1ec4;
+    padding: 30px;
+    text-align: end;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:rgb(154, 174, 189);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sobre{
+    padding: 50px;
+    max-width: 600px;;
+}
+
+.menu_sobre{
+    background-color: #8fc6da;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}  
+
+
+.foto_perfil{
+    width: 180px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.titulo {
+    color:#0f1ec4;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.subtitulo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.primeiro-paragrafo {
+    font-size: 16px;
+    line-height: 22.4px;
+    max-width: 500px;
+}
+
+.fundo_formacao{
+    background-color: #cbe9ec;
+    padding: 30px 80px;
+}
+
+.titulo_formacao{
+    color: #0f1ec4 ;
+    font-size: 30px;
+}
+
+#conteudo_formacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_formacao{
+    width: 100%;
+    max-width:600px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.fundo_portfolio{
+    background-color: #8fc6da;
+    padding: 30px 80px;
+}
+.titulo_portfolio{
+    color: #0f1ec4 ;
+    font-size: 30px;
+}
+
+#conteudo_portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_portfolio{
+    width: 100%;
+    max-width:600px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+#fundo_rodape{
+    background-color: #0f1ec4;
+    padding: 30px;
+    color: #cbe9ec ;
+}
+
+.conteudo_rodape{
+    background-color: #0f1ec4;
+    display: flex;
+    justify-content: end;
+    text-align: start;
+
+    margin: 0;
+    list-style: none;
+}
+.entre-em-contato{
+        color: #8fc6da ;
+        font-size: 13px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: start;        ;
+}
+
+.rodape_icone a{
+    color: #cbe9ec;
+    font-size: 12px;
+}
+
+.rodape_icone{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.icone{
+    width: 25px;
+    margin-right: 10px;
+}
